@@ -59,5 +59,5 @@ Next, transfer the bbtools.sif file to the system on which you want to run BBToo
 BBTOOLS_SIF=path/to/bbtools39.01.sif
 
 # Test that BBTools can run from Singularity container
-singularity run $BBTOOLS_SIF bbduk.sh --help # depending on system/version, singularity may be called apptainer
+singularity run $BBTOOLS_SIF bbduk.sh -Xmx500m --version # depending on system/version, singularity may be called apptainer
 ```
