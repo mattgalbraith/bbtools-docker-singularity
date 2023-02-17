@@ -2,9 +2,9 @@
 # bbtools-docker-singularity
 ## Build Docker container for BBTools and (optionally) convert to Apptainer/Singularity.  
 BBTools is a suite of fast, multithreaded bioinformatics tools designed for analysis of DNA and RNA sequence data.    
-The BBTools suite includes programs such as:
-• bbduk – filters or trims reads for adapters and contaminants using k-mers
-• bbmap – short-read aligner for DNA and RNA-seq data
+The BBTools suite includes programs such as:  
+• bbduk – filters or trims reads for adapters and contaminants using k-mers  
+• bbmap – short-read aligner for DNA and RNA-seq data  
   
 #### Requirements:
 To run BBTools, you need to have Java 7 or higher installed.
